@@ -183,6 +183,8 @@ public class ProcessingUnit implements Runnable
 		// get the size of index frame
 		int sizeIndexInfo = indexinfo.getIndexInfoSize();
 		
+		System.out.println("Index size: "+sizeIndexInfo);
+		
 		// for each of document, allocate the proper index cell size
 		for (i = 0; i < filenode.size(); i++)
 		{
