@@ -1,0 +1,132 @@
+
+
+50 documents
+
+1000 queries:
+
+INFO: Processing time: 42
+
+2000 queries:
+
+INFO: Processing time: 49
+
+3000 queries:
+
+INFO: Processing time: 42
+
+4000 queries:
+
+INFO: Processing time: 51
+
+5000 queries:
+
+INFO: Processing time: 42
+
+6000 words:
+
+INFO: Processing time: 53
+
+7000 queries:
+
+INFO: Processing time: 41
+
+8000 queries:
+
+INFO: Processing time: 45
+
+9000 queries:
+
+INFO: Processing time: 43
+
+10000 queries:
+
+INFO: Processing time: 43
+
+
+100 documents:
+
+
+
+1000 query words: 
+
+INFO: Processing time: 130
+
+2000 query words:
+
+INFO: Processing time: 123
+
+3000 qurye words:
+
+INFO: Processing time: 129
+
+4000 quer words:
+
+INFO: Processing time: 119
+
+5000 query words
+
+INFO: Processing time: 118
+
+6000 words:
+
+INFO: Processing time: 130
+
+7000 words:
+
+INFO: Processing time: 119
+
+8000 words: 
+
+INFO: Processing time: 117
+
+9000 words:
+
+INFO: Processing time: 118
+
+10000 words:
+
+INFO: Processing time: 118
+
+
+200 documents
+
+1000 words:
+
+INFO: Processing time: 328
+
+2000 words:
+
+INFO: Processing time: 328
+
+3000 words:
+
+INFO: Processing time: 354
+
+4000 words:
+
+INFO: Processing time: 326
+
+5000 words:
+
+INFO: Processing time: 327
+
+6000 words:
+
+INFO: Processing time: 340
+
+7000 words:
+
+INFO: Processing time: 327
+
+8000 words:
+
+INFO: Processing time: 327
+
+9000 words:
+
+INFO: Processing time: 333
+
+10000 words:
+
+INFO: Processing time: 315
+

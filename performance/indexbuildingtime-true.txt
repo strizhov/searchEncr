@@ -1,0 +1,76 @@
+
+10 documnets
+
+missouri:~/Security/svnroot/projects/searchEncr/classes$ java com.searchEncr.dataowner.Main  ../config/testing.conf 
+Apr 04, 2013 2:41:26 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 3898
+Apr 04, 2013 2:41:26 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Processing time: 80
+
+25 documents
+
+Apr 04, 2013 2:45:06 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 6725
+Apr 04, 2013 2:45:06 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Processing time: 171
+
+50 documents
+
+Apr 04, 2013 2:45:23 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 12365
+Apr 04, 2013 2:45:24 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Processing time: 874
+
+75 documents
+
+Apr 04, 2013 2:46:04 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 15552
+Apr 04, 2013 2:46:06 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Processing time: 2368
+
+
+100 documents
+
+Apr 04, 2013 2:46:33 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 18322
+Apr 04, 2013 2:46:39 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Processing time: 5750
+
+
+125 documents
+
+Apr 04, 2013 2:47:11 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 21026
+Apr 04, 2013 2:47:21 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Processing time: 10662
+
+150 documents: 
+
+Apr 04, 2013 2:47:43 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 22793
+Apr 04, 2013 2:47:59 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Processing time: 15862
+
+175 documents:
+
+Apr 04, 2013 2:48:23 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 24556
+Apr 04, 2013 2:48:48 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Processing time: 25351
+ 
+200 documents:
+
+Apr 04, 2013 2:49:10 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 25937
+Apr 04, 2013 2:49:44 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Processing time: 34048
+
+
+250 documents:
+
+Apr 04, 2013 2:50:54 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 28677
+Apr 04, 2013 2:51:59 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Processing time: 64316
+
+

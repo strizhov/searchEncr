@@ -1,0 +1,45 @@
+
+
+
+Document upload performance:  how fast we can upload encrypted documents with attached search index
+
+
+
+10 documents:
+
+INFO: Upload time: 324
+
+
+25 documents:
+
+INFO: Upload time: 649
+
+
+50 documents:
+
+INFO: Upload time: 1852
+
+75 documents: 
+
+INFO: Upload time: 3953
+
+100 documents:
+
+INFO: Upload time: 4886
+
+
+125 documents:
+
+INFO: Upload time: 7914
+
+150 documents:
+
+INFO: Upload time: 10530
+
+175 documents:
+
+INFO: Upload time: 12399
+
+200 documents:
+
+INFO: Upload time: 15063

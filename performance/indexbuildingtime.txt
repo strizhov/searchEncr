@@ -1,0 +1,71 @@
+
+10 documents:
+
+Apr 03, 2013 4:16:40 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 2972
+Apr 03, 2013 4:16:40 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365027400039
+Apr 03, 2013 4:16:40 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365027400110
+
+25 documents:
+
+Apr 03, 2013 4:25:53 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 4277
+Apr 03, 2013 4:25:53 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365027953937
+Apr 03, 2013 4:25:54 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365027954100
+
+
+50 documents:
+
+Apr 03, 2013 4:24:28 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 5509
+Apr 03, 2013 4:24:28 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365027868239
+Apr 03, 2013 4:24:28 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365027868713
+
+75 documents:
+
+Apr 03, 2013 4:26:43 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 6531
+Apr 03, 2013 4:26:43 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365028003364
+Apr 03, 2013 4:26:44 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365028004500
+
+100 documents:
+
+Apr 03, 2013 4:27:08 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 7659
+Apr 03, 2013 4:27:08 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365028028361
+Apr 03, 2013 4:27:11 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365028031104
+
+150 documents: 
+
+Apr 03, 2013 4:27:57 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 9900
+Apr 03, 2013 4:27:57 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365028077224
+Apr 03, 2013 4:28:05 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365028085756
+
+200 documents:
+
+Apr 03, 2013 4:29:05 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Number of unique words: 11404
+Apr 03, 2013 4:29:05 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365028145989
+Apr 03, 2013 4:29:25 PM com.searchEncr.dataowner.termweight.ProcessingUnit run
+INFO: Time: 1365028165150
+
+
+
+
+Fixed Number of
+
+
