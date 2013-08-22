@@ -75,14 +75,14 @@ public class ProcessingUnit implements Runnable
 		logger.log(Level.INFO, "Time to construct index: "+(stoptime-starttime));
 		
 		// for each of document 
-		for (int i = 0; i < filenode.size(); i++)
+/*		for (int i = 0; i < filenode.size(); i++)
 		{
 			// get filenode object
 			FileNode fn = filenode.get(i);
 			
 			fn.printIndexCell();
 		}
-		
+*/		
     	// generate secret key
 /*    	CryptoManager cryptomanager = CryptoManager.getInstance();
     	cryptomanager.generateNewKey();
