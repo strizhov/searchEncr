@@ -24,7 +24,7 @@ public class IndexInfo
 		return instance;
 	}
 	
-	public void addWordToIndex(String word)
+	public void addWordToIndexInfo(String word)
 	{
 		uniqueWords.add(word);
 	}

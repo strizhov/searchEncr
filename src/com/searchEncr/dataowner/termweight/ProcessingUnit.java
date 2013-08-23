@@ -84,13 +84,15 @@ public class ProcessingUnit implements Runnable
 		}
 */		
     	// generate secret key
-/*    	CryptoManager cryptomanager = CryptoManager.getInstance();
+    	CryptoManager cryptomanager = CryptoManager.getInstance();
     	cryptomanager.generateNewKey();
     	cryptomanager.saveSecretKey(keyfilename);
     	
 		// upload data to cloud server
 		uploadDataToCloudServer();
-*/
+		
+		cleanUpData(indexinfo);
+
 	}//launchProcessingUnit
 	
 	
@@ -163,7 +165,7 @@ public class ProcessingUnit implements Runnable
 	    	fn.addWordToCollection(m.group().toLowerCase());
 	    	
 	    	// convert each founded word to lower case and add it to indexinfo
-	    	indexinfo.addWordToIndex(m.group().toLowerCase());
+	    	indexinfo.addWordToIndexInfo(m.group().toLowerCase());
 	    } 	
 	}
 	
@@ -183,7 +185,7 @@ public class ProcessingUnit implements Runnable
 		// get the size of index frame
 		int sizeIndexInfo = indexinfo.getIndexInfoSize();
 		
-		System.out.println("Index size: "+sizeIndexInfo);
+		System.out.println("Index size: "+sizeIndexInfo);	
 		
 		// for each of document, allocate the proper index cell size
 		for (i = 0; i < filenode.size(); i++)
@@ -331,14 +333,14 @@ public class ProcessingUnit implements Runnable
 			byte[] filedata = FileIO.readByteArrayFromFile(filenode.getAbsoluteFilePath());
 			
 			CryptoManager cryptomanager = CryptoManager.getInstance();
-			byte[] encfiledata = cryptomanager.encryptBytes(filedata);
-			if (encfiledata == null)
+			byte[] encrfiledata = cryptomanager.encryptBytes(filedata);
+			if (encrfiledata == null)
 			{
 				logger.log(Level.WARNING, "Unable to encrypt file: "+filenode.getFileName());
 				return null;
 			}
 		
-			CloudUploadData msg = new CloudUploadData(PacketType.CLOUD_UPLOAD_DATA, index, filenode.getFileName(), encfiledata);
+			CloudUploadData msg = new CloudUploadData(PacketType.CLOUD_UPLOAD_DATA, index, filenode.getFileName(), encrfiledata);
 			return msg;
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -347,5 +349,21 @@ public class ProcessingUnit implements Runnable
 		return null;
 	}
 
+	/*
+	 * Clear unnesessary data
+	 * @param indexinfo
+	 */
+	private void cleanUpData(IndexInfo indexinfo)
+	{
+		for (int i = 0; i < filenode.size(); i++)
+		{
+			// get filenode object
+			FileNode fn = filenode.get(i);
+			
+			fn.clearWords();
+		}
+		
+	}
+	
 }
 

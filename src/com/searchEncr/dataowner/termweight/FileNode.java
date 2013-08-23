@@ -45,7 +45,7 @@ public class FileNode
 		if (words.containsKey(word) == true)
 		{
 			// word exist, find existing value and increment it
-			int val = words.get(word);
+			Integer val = words.get(word);
 			val++;
 			words.put(word, val);
 		}
@@ -73,6 +73,11 @@ public class FileNode
 		return words.size();
 	}
 	
+	public void clearWords()
+	{
+		words.clear();
+	}
+	
 	// Index cell methods
 	
 	public void allocateIndexCell(int size)
@@ -84,8 +89,6 @@ public class FileNode
 	{
 		return cell.get(index);
 	}
-	
-	
 	
 	public void addWordToIndexCell(int index, String word, Number weight)
 	{

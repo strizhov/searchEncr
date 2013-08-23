@@ -46,11 +46,11 @@ public class ResponseProcessor
         	
         	Collection<String> wordindex = indexinfo.getIndexInfo();
         	
-        	for (String a: wordindex)
+/*        	for (String a: wordindex)
         	{
         		System.out.println("Words:" + a);
         	}
-        	
+*/        	
         	DataOwnerTrapdoorQueryReply reply = new DataOwnerTrapdoorQueryReply(PacketType.TRAPDOOR_QUERY_REPLY, wordindex);
 
         	ObjectOutputStream out = new ObjectOutputStream(sock.getOutputStream());
